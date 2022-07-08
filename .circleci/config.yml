@@ -47,4 +47,4 @@ workflows:
       - say-hello
       - print_hello
       - print_world
-        requiures: [print_hello]
+          requiures: [print_hello]
