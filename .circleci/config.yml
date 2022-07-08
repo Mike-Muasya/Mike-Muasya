@@ -7,8 +7,7 @@ jobs:
 
     steps:
       - run:
-          name: Print hello
-          command:  "echo Hello"
+          command:  echo Hello
 
   print_world:
     docker:
@@ -16,8 +15,7 @@ jobs:
 
     steps:
       -run:
-        name: Print world
-        command:  "echo world!"
+        command:  echo world
 
 workflows:
   welcome:
